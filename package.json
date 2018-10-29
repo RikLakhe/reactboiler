@@ -1,27 +1,42 @@
 {
-  "name": "reactboiler",
-  "version": "1.0.0",
-  "description": "boilerplate for react app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RikLakhe/reactboiler.git"
-  },
-  "keywords": [
-    "react",
-    "boiler"
-  ],
-  "author": "Rikesh Lal Shrestha",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RikLakhe/reactboiler/issues"
-  },
-  "homepage": "https://github.com/RikLakhe/reactboiler#readme",
-  "dependencies": {
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0"
-  }
+    "name": "reactboiler",
+    "version": "1.0.0",
+    "description": "boilerplate for react app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server --mode development --open --hot",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RikLakhe/reactboiler.git"
+    },
+    "keywords": [
+        "react",
+        "boiler"
+    ],
+    "author": "Rikesh Lal Shrestha",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RikLakhe/reactboiler/issues"
+    },
+    "homepage": "https://github.com/RikLakhe/reactboiler#readme",
+    "dependencies": {
+        "babel": "^6.23.0",
+        "react": "^16.6.0",
+        "react-dom": "^16.6.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.1.2",
+        "@babel/preset-env": "^7.1.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.23.1",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.10"
+    }
 }
